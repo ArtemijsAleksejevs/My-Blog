@@ -1,0 +1,211 @@
+body {
+    background: #808080;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 35px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    width: 100%;
+}
+
+h1, h2 {
+    color: #4C4C4C;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 5px solid #BEBEBE;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+table.project-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+table.project-table th, table.project-table td {
+    border: 1px solid #BEBEBE;
+    padding: 10px;
+    text-align: left;
+}
+
+table.project-table th {
+    background-color: #4C4C4C;
+    color: white;
+}
+
+table.project-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.project-table tr:hover {
+    background-color: #ddd;
+}
+
+.card {
+    background: #808080;
+    padding: 15px;
+    color: #000;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.33);
+}
+
+button {
+    padding: 5px 8px;
+    border: 2px solid #000;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.2) translateX(8px);
+}
+
+.hero-image {
+    background-image: url("https://i.yapx.ru/HRF5R.gif");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image:hover {
+    background-image: url("https://i.yapx.ru/HRF5P.gif");
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+}
+
+ul.nav {
+    margin-left: 25px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.nav li {
+    display: inline;
+}
+
+ul.nav a {
+    display: inline-block;
+    width: 7em;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px dashed #333;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+
+ul.nav a:hover {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+a.buttass0101 {
+    text-decoration: none;
+    background-color: #252525;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: 2px groove #95FA72;
+    padding: 4px 10px 4px 10px;
+    margin: 4px 10px 4px 10px;
+    display: block;
+    width: 280px;
+    text-align: center;
+    vertical-align: middle;
+    transition: color 2s linear, background 2s linear ;
+}
+
+a.buttass0101:hover {
+    color: #F46A4D;
+    animation: efeef 2s ease infinite alternate;
+}
+
+@-webkit-keyframes efeef {
+    from {
+        text-shadow: 0 0 4px #0000cd, 0 0 8px #FA6F03, 0 0 15px #562FA3, 0 0 8px #0000cd, 0 0 8px #e60073, 0 0 42px #e60073, 0 0 15px #0a83cd;
+        color: #FFFFFF;
+    }
+    to {
+        text-shadow: 0 0 16px #0000dd, 0 0 12px #FF7F13, 0 0 29px #663FB3, 0 0 24px #0000dd, 0 0 29px #F61083, 0 0 48px #f61083, 0 0 49px #1a93dd;
+        color: #E6E6E6;
+    }
+}
+
+#more {
+    display: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    max-width: 30%;
+    height: auto;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
